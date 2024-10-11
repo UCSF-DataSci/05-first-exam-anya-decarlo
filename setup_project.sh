@@ -12,7 +12,7 @@ touch bioinformatics_project/scripts/dna_operations.py
 touch bioinformatics_project/scripts/find_cutsites.py
 
 #Create empty file name in results directory 
-touch bioinformatics_project/reults/cutside_summary.txt
+touch bioinformatics_project/results/cutside_summary.txt
 
 #Create empty file in data directory 
 touch bioinformatics_project/data/random_sequence.fasta
