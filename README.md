@@ -8,7 +8,7 @@
 
 ## Question 1: Project Setup (15 points)
 
-@@ -93,9 +92,9 @@ Create a Python script that performs various operations on DNA sequences. Your s
+@@ -93,9 +92,9 @@ Create a Python script that performs various operations on DNA sequences. Your sript should:
 
 1. Accept a DNA sequence as a command-line argument.
 2. Implement the following functions:
