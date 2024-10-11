@@ -1,4 +1,4 @@
-#! /bin/bas
+#! /bin/bash
 
 #Create main project directory 
 mkdir -p bioinformatics_project 
