@@ -34,5 +34,5 @@ echo "# Bioinformatics Project Structure
   
 - **results/**: A subdirectory directory that stores the output files from the analyses.
   - \`cutsite_summary.txt\`: A placeholder file where the summary of restriction cut sites is stored."
- >/Users/ anyadecarlo@Anyas-MacBook-Pro 05-first-exam-anya-decarlo/bioinformatics_project/README.md
+ >/Users/anyadecarlo@Anyas-MacBook-Pro 05-first-exam-anya-decarlo/bioinformatics_project/README.md
 
