@@ -31,7 +31,7 @@ echo "# Bioinformatics Project Structure
   - \\\`find_cutsites.py\\\`: Identifies restriction enzyme cut sites in DNA sequences.
   
 - **results/**: A subdirectory that stores the output files from the analyses.
-  - \\\`cutsite_summary.txt\\\`: A placeholder file where the summary of restriction cut sites is stored." > /Users/anyadecarlo/05-first-exam-anya-decarlo/README.md
+  - \\\`cutsite_summary.txt\\\`: A placeholder file where the summary of restriction cut sites is stored." > /Users/anyadecarlo/05-first-exam-anya-decarlo/bioinformatics_prokect/README.md
 
 # Check if everything was created successfully
 if [ -d "bioinformatics_project" ]; then
