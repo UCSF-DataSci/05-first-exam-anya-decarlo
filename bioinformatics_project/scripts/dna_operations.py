@@ -1,4 +1,4 @@
-#import packages 
+#import modules 
 import argparse 
 
 #DNA base complement dictionary 

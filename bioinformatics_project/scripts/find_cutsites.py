@@ -1,6 +1,7 @@
-#import packages
+#import modules
 import os 
 import sys 
+import argparse 
 
 #read FAFSTA file 
 def read_fasta(filepath):
