@@ -2,7 +2,7 @@
 import argparse 
 
 #DNA base complement dictionary 
-base_complement = {"A:T","T:A", "C:G", "G:C"}
+base_complement = {"A" : "T","T": "A", "C":"G", "G":"C"}
 
 #complement sequence function
 #returns complement of a DNA Sequence
@@ -23,9 +23,9 @@ def reverse_complement_sequence(sequence):
     return reverse(complement(sequence))
 
 def main(): 
-    parser = argparse.ArgumentParser
-    parser.add_argumet("sequence")
-    args = parser.pars_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("sequence")
+    args = parser.parse_args()
 
     #converts original sequence to uppercase 
     original_sequence = args.sequence.upper()
@@ -36,5 +36,6 @@ def main():
     print("Reverse:       " ,reverse(original_sequence))
     print("Reverse complement: ", reverse_complement_sequence(original_sequence))
 
-    if __name__ == "__main__":
+
+if __name__ == "__main__":
         main()
