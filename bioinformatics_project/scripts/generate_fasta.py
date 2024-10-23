@@ -18,7 +18,7 @@ format_seq = '\n'.join(
 )
 
 #Save sequence in FASTA format in data directory 
-with open("05-first-exam-anya-decarlo/bioinformatics_project/data/random_sequence.fasta", "w") as fasta_file:
+with open("/Users/anyadecarlo/05-first-exam-anya-decarlo/bioinformatics_project/data/random_sequence.fasta", "w") as fasta_file:
     fasta_file.write(format_seq)
 
 
