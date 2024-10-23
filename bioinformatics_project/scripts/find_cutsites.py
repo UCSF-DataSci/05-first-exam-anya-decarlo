@@ -31,6 +31,7 @@ def  find_pairs(locations):
     return pairs
 
 def save_summary_results(pairs, summary_file):
+    print(f"Saving results to {summary_file}...")
     with open(summary_file, "w") as file:
         file.write("Total cut sites found:" + str(len(pairs)) + "\n")
         file.write("First 5 pairs:\n")
