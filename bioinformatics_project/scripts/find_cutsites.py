@@ -33,9 +33,9 @@ def  find_pairs(locations):
 def save_summary_results(pairs, summary_file):
     with open(summary_file, "w") as file:
         file.write("Total cut sites found:" + str(len(pairs)) + "\n")
-        file.write("First 5 pairs:")
+        file.write("First 5 pairs:\n")
         for pair in pairs[:5]:
-            file.write(str(pair[0]) + ", " + str(pair[1]) + "\n")
+            file.write(f"{pair[0]},{pair[1]}\n")
 
 def main (): 
     fasta_file = sys.argv[1]
