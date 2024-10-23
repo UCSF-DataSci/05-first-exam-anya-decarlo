@@ -12,7 +12,7 @@ def read_fasta(fasta_file):
 
 #find occurences of the cut sites 
 def find_occurences(dna, cut_site): 
-    remove_pipe = cut_site.replace("|", "")
+    remove_pipe = cut_site.replace('|', "")
     locations = []
     index = dna.find(remove_pipe)
     while index != -1:
@@ -26,7 +26,7 @@ def  find_pairs(locations):
     for i in range(len(locations)):
         for j in range (i +1, len(locations)): 
             length = locations[j] - locations[i]
-            if 8000 <= length <= 120000:
+            if 80000 <= length <= 120000:
                 pairs.append((locations[i], locations[j]))
     return pairs
 
@@ -44,7 +44,7 @@ def main ():
     dna_sequence = read_fasta(fasta_file)
     positions = find_occurences(dna_sequence, cut_site)
     pairs = find_pairs(positions)
-    save_summary = (pairs, summary_file)
+    save_summary_results = (pairs, summary_file)
 
-if __name__ == "main": 
+if __name__ == "__main__": 
     main ()
