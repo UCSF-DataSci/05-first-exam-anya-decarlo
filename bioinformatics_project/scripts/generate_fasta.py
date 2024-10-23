@@ -17,6 +17,9 @@ format_seq = '\n'.join(
     random_seq[i:i +80] for i in range(0, len(random_seq), 80)
 )
 
+#Save sequence in FASTA format in data directory 
+with open("../../data/random_sequence.fasta", "w") as fasta_file:
+    fasta_file.write(format_seq)
 
 
 
