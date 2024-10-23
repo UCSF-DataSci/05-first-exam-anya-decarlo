@@ -45,6 +45,7 @@ def main ():
     positions = find_occurences(dna_sequence, cut_site)
     pairs = find_pairs(positions)
     save_summary_results = (pairs, summary_file)
+    print(f"Total cut site pairs found: {len(pairs)}")
 
 if __name__ == "__main__": 
     main ()
