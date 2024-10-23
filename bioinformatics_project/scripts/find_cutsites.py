@@ -31,7 +31,6 @@ def  find_pairs(locations):
     return pairs
 
 def save_summary_results(pairs, summary_file):
-    print("Entering save_summary_results function...")
     with open(summary_file, "w") as file:
         file.write("Total cut sites found:" + str(len(pairs)) + "\n")
         file.write("First 5 pairs:\n")
@@ -45,7 +44,7 @@ def main ():
     dna_sequence = read_fasta(fasta_file)
     positions = find_occurences(dna_sequence, cut_site)
     pairs = find_pairs(positions)
-    save_summary_results = (pairs, summary_file)
+    save_summary_results(pairs, summary_file)
     print(f"Total cut site pairs found: {len(pairs)}")
 
 if __name__ == "__main__": 
