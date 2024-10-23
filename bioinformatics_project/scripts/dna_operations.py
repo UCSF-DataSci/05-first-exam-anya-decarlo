@@ -35,3 +35,6 @@ def main():
     print("Complement:" , complement(original_sequence)) 
     print("Reverse:       " ,reverse(original_sequence))
     print("Reverse complement: ", reverse_complement_sequence(original_sequence))
+
+    if __name__ == "__main__":
+        main()
